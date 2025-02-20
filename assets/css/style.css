@@ -97,9 +97,9 @@ section{
 /* section6 ending */
 
 /* section7 */
-.section7 {
-    background-image: url('/assets/images/blurred_bg3.jpg');
-}
+/* .section7 {
+    background-image: url('assets/images/blurred_bg3.jpg');
+} */
 
 /* section7 ending */
 
@@ -127,7 +127,7 @@ section{
 /* section9 */
 
 .section9 {
-    background-image: url('/assets/images/image\79.png');
+    background-image: url('assets/images/image79.png');
 }
 
 /* section9 ending */
