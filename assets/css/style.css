@@ -98,7 +98,7 @@ section{
 
 /* section7 */
 .section7 {
-    background-image: url(assets/images/blurred_bg3.jpg);
+    background-image: url('assets/images/blurred_bg3.jpg');
 }
 
 /* section7 ending */
