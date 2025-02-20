@@ -1,0 +1,205 @@
+/* section1 */
+
+section{
+    overflow: hidden;
+}
+.navbar {
+    background: linear-gradient(rgb(0, 0, 0), rgba(97, 97, 97, 0));
+}
+
+.nav-link {
+    color: white !important;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+
+/* section1 ending */
+
+
+/* section2 */
+
+.carousel-caption h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 900;
+}
+
+.carousel-caption {
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width:768px) {
+
+    .carousel-caption {
+        width: 300px;
+        top: 25%;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+
+
+}
+
+/* section2 ending */
+
+
+/* section3 */
+.section3 {
+    padding: 50px;
+}
+
+/* section3 ending */
+
+
+/* section4 */
+.section4 {
+    background-color: black;
+    color: white;
+}
+
+.column2 h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.column2 {
+    padding: 80px;
+}
+
+/* section4 ending */
+
+/* section5 */
+.section5 {
+    background-color: #F8F2E7;
+}
+
+/* section5 ending */
+
+/* section6 */
+.cl1 {
+    padding: 70px;
+
+}
+
+/* section6 ending */
+
+/* section7 */
+.section7 {
+    background-image: url(/assets/images/blurred\ bg3.jpg);
+}
+
+/* section7 ending */
+
+
+/* section8 */
+.section8 {
+    background-color: black;
+    color: white;
+}
+
+.sec8 {
+    padding: 50px;
+}
+
+.sec8 h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* section8 ending */
+
+
+
+/* section9 */
+
+.section9 {
+    background-image: url(/assets/images/image\ 79.png);
+}
+
+/* section9 ending */
+
+
+
+/* section10 */
+.column6 {
+    padding: 60px;
+}
+
+/* section10 ending */
+
+/* section11 */
+.section11 {
+    background-color: #F8F2E7;
+}
+
+/* section11 ending */
+
+
+/* section12 */
+.c2 {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+/* section12 ending */
+
+
+/* section13 */
+.section13 {
+    background-color: black;
+    padding: 60px;
+
+}
+
+.input1 {
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 450px;
+    border-color: white;
+}
+
+/* section13 ending */
+
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+    background:grey;
+    border-radius: 10px;
+}
+
+
+/* scrollbar ending */
