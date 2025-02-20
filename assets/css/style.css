@@ -127,7 +127,7 @@ section{
 /* section9 */
 
 .section9 {
-    background-image: url(/assets/images/image 79.png);
+    background-image: url('/assets/images/image\79.png');
 }
 
 /* section9 ending */
