@@ -28,7 +28,7 @@ section{
 }
 
 .carousel-caption {
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 }
 
 @media screen and (max-width:768px) {
@@ -47,8 +47,6 @@ section{
     p {
         font-size: 12px;
     }
-
-
 
 }
 
@@ -136,6 +134,11 @@ section{
     padding-right: 50px;
     padding-bottom: 50px;
 }
+.c2 h2{
+     font-family: 'Permanent Marker', cursive;
+    font-weight: 900;
+    font-style: italic;
+}
 
 /* section12 ending */
 
@@ -154,6 +157,7 @@ section{
     border-right: 0;
     width: 450px;
     border-color: white;
+    outline: none;
 }
 
 /* section13 ending */
@@ -167,18 +171,18 @@ section{
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px green;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
+    background: green;
     border-radius: 10px;
 }
 
 
-::-webkit-scrollbar-thumb:hover{
-    background:grey;
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 233, 4);
     border-radius: 10px;
 }
 
