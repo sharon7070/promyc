@@ -28,14 +28,19 @@ section{
     font-weight: 900;
 }
 
+.carousel-item img {
+    object-fit: cover;  
+}
+
 .carousel-caption {
-    margin-bottom: 200px;
+    position: absolute;
+    top: 40%;
+    text-align: center;
 }
 
 @media screen and (max-width:768px) {
 
     .carousel-caption {
-        width: 300px;
         top: 25%;
         margin-left: 5px;
         text-align: center;
