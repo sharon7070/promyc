@@ -12,9 +12,10 @@ section{
     justify-content: space-between;
     align-items: center;
     transition: all 0.3s ease-in-out; 
-    background-color: white;
+    background: linear-gradient(black,rgba(255, 255, 255, 0));
     height: 70px;
 }
+
 
 .navbar.scrolled {
     background-color: #fffffffd; 
@@ -24,7 +25,7 @@ section{
 }
 
 .nav-link {
-    color: black !important;
+    color: white !important;
     text-decoration: none;
     font-weight: bold;
 }
