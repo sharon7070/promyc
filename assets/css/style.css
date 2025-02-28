@@ -236,6 +236,7 @@ section{
     width: 450px;
     border-color: white;
     outline: none;
+    color: white;
 }
 
 /* section13 ending */
@@ -260,7 +261,7 @@ section{
 
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(4, 233, 4);
+    background: green;
     border-radius: 10px;
 }
 ::selection {
