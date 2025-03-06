@@ -1,15 +1,43 @@
 /* section1 */
 
-section{
+section {
     overflow: hidden;
 }
+
+
+
 .navbar {
-    background: linear-gradient(rgb(0, 0, 0), rgba(97, 97, 97, 0));
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav-link {
-    color: white !important;
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+}
+
+
+.navbar.scrolled {
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.scrolled .nav-link {
+    color: black;
+}
+
+.navbar.scrolled .navbar-brand img {
+    filter: invert(1);
 }
 
 .navbar-toggler {
@@ -20,6 +48,7 @@ section{
 /* section1 ending */
 
 
+
 /* section2 */
 
 .carousel-caption h1 {
@@ -27,16 +56,23 @@ section{
     font-weight: 900;
 }
 
-.carousel-caption {
-    margin-bottom: 200px;
+.carousel-item img {
+    object-fit: cover;
+
 }
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
 
 @media screen and (max-width:768px) {
 
     .carousel-caption {
-        width: 300px;
         top: 25%;
-        margin-left: 20px;
+        margin-left: 5px;
         text-align: center;
     }
 
@@ -49,6 +85,52 @@ section{
     }
 
 
+    .navbar-collapse {
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        width: 75%;
+        background-color: white;
+        transition: left 0.5s ease;
+        z-index: 1050;
+        margin-top: 80px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .navbar-collapse.show {
+        left: 0;
+    }
+
+
+    .navbar-nav {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-top: 50px;
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: transform 0.2s ease, opacity 0.2s ease 0.1s;
+    }
+
+    .navbar-collapse.show .navbar-nav {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .nav-link {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        color: black;
+        text-align: left;
+    }
+
+
+    
+   
 
 }
 
@@ -96,13 +178,6 @@ section{
 
 /* section6 ending */
 
-/* section7 */
-.section7 {
-    background-image: url(/assets/images/blurred\ bg3.jpg);
-}
-
-/* section7 ending */
-
 
 /* section8 */
 .section8 {
@@ -123,17 +198,6 @@ section{
 /* section8 ending */
 
 
-
-/* section9 */
-
-.section9 {
-    background-image: url(/assets/images/image\ 79.png);
-}
-
-/* section9 ending */
-
-
-
 /* section10 */
 .column6 {
     padding: 60px;
@@ -141,9 +205,21 @@ section{
 
 /* section10 ending */
 
+
 /* section11 */
 .section11 {
     background-color: #F8F2E7;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* section11 ending */
@@ -151,9 +227,16 @@ section{
 
 /* section12 */
 .c2 {
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
+    padding: 50px;
+
+}
+
+.c2 h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 900;
+    font-style: italic;
+
+
 }
 
 /* section12 ending */
@@ -173,9 +256,12 @@ section{
     border-right: 0;
     width: 450px;
     border-color: white;
+    outline: none;
+    color: white;
 }
 
-/* section13 ending */
+
+/* section13 ending
 
 
 
@@ -186,20 +272,45 @@ section{
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+    box-shadow: inset 0 0 5px green;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0);
+    background: green;
     border-radius: 10px;
 }
 
 
-::-webkit-scrollbar-thumb:hover{
-    background:grey;
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 233, 4);
     border-radius: 10px;
+}
+
+::selection {
+    background-color: green;
+    color: white;
 }
 
 
 /* scrollbar ending */
+
+/* contact page start */
+.contact  {
+    
+    height: 400px;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding-top: 200PX;
+
+}
+
+.contact h1 {
+    font-weight: bold;
+
+}
+
+/* contact page end */
